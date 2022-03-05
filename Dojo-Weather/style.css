@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#container{
+    width: 960px;
+    margin: auto;
+}
+#navBar{
+    display: flex;
+    justify-content: space-between;
+    background-color: dodgerblue;
+    color: white;
+    align-items: center;
+}
+#navBar > ul{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    display: flex;
+    gap: 30px;
+    margin: 15px;
+}
+#location{
+    display: flex;
+    margin: 20px 0px;
+}
+#city{
+    flex: 3;
+}
+#selector{
+    flex: 1;
+}
+#selector > p{
+    display: inline-block;
+}
+#body{
+    display: flex;
+    justify-content: space-between;
+}
+.weather{
+    text-align: center;
+    background-color: lightgrey;
+    width: 200px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.weather > img{
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px 0px;
+}
+.weather > .temp{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+.highTemp, .tomorrowHighTemp, .fridayHighTemp, .saturdayHighTemp{
+    color: rgba(255, 0, 0, 0.61);
+}
+.lowTemp, .tomorrowLowTemp, .fridayLowTemp, .saturdayLowTemp{
+    color:dodgerblue;
+}
+#cookies{
+    border: 2px solid black;
+    position: fixed;
+    bottom: 0;
+    width:960px;
+    height: 100px;
+    display: flex;
+}
+#wordCookies{
+    margin-top: 22px;
+    margin-left: 10px;
+}
+
+#cookies > button{
+    width: 115px;
+    height: 25px;
+    vertical-align: middle;
+    margin: 40px 49px 0px 0px;
+    background-color: dodgerblue;
+    color: white;
+    border-style: solid black;
+    box-shadow: 3px 3px 0px 0px black;
+}

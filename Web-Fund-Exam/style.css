@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    width: 960px;
+    margin: auto;
+}
+/* -----NAVBAR----- */
+#navBar{
+    margin-top: 5px;
+}
+#topLeft{
+    display:flex;
+    font-family: 'Times New Roman', Times, serif;
+}
+#bar{
+    width: 600px;
+    border-radius: 15px;
+}
+#topRight{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-family: sans-serif;
+}
+#topRight > img{
+    height: 30px;
+}
+#topLeft > #logo{
+    background-color: #36d5bb;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+#navTop{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    text-align: center;
+}
+#navBottom{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 15px 0px;
+    font-family: sans-serif;
+}
+/* -----NAVBAR----- */
+hr{
+    height: 3px;
+    background-color: black;
+}
+#header{
+    text-align: center;
+    margin: 25px 0px;
+    font-family: sans-serif;
+    font-weight:300;
+}
+/* -----BODY----- */
+#body{
+    display:flex;
+    font-family: sans-serif;
+}
+#leftCol{
+    display: flex;
+    flex: 2;
+}
+#leftColLeft{
+    flex: 1;
+    background-color: #36d5bb;
+    color: white;
+    text-align: center;
+}
+#leftColLeft > h2{
+    margin: 50px 40px;
+}
+#discover{
+    margin-top: 30px;
+    display: flex;
+    margin-left: 70px;
+    align-items: center;
+}
+#leftColPic{
+    flex: 1;
+}
+#rightCol{
+    flex: 1;
+    margin-left: 20px;
+}
+#rightColTop{
+    margin-bottom: 20px;
+
+}
+#rightColBottom{
+    background-color: #36d5bb;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 84px;;
+}
+/* -----BODY----- */
+/* -----BOTTOM----- */
+#bottom{
+    display: flex;
+    margin-top: 20px;
+    background-color: #bff1eb;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+}
+.types{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.types > img{
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+/* -----BOTTOM----- */
+/* -----COOKIES----- */
+#cookies{
+    border: 2px solid black;
+    position: fixed;
+    bottom: 0;
+    width:956px;
+    height: 100px;
+    display: flex;
+    background-color: white;
+    font-family: sans-serif;
+}
+#wordCookies{
+    margin-top: 22px;
+    margin-left: 10px;
+}
+#cookies > img{
+    height: 60px;
+    margin: 20px;
+}
+#cookies > button{
+    width: 115px;
+    height: 25px;
+    vertical-align: middle;
+    margin: 40px 40px 0px 0px;
+    background-color: #36d5bb;
+    color: white;
+    border-style: solid black;
+    box-shadow: 3px 3px 0px 0px black;
+}
+/* -----COOKIES----- */
